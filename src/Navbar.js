@@ -2,7 +2,6 @@ import React from 'react'
 import './navbar.css'
 import Brand from './brand.svg'
 import Logo from './logo.png'
-import {Link} from "react-router-dom"
 //Navbar
 const Navbar = ()=>{
     return(
