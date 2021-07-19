@@ -1,0 +1,44 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+/* brand name */
+.brand{
+    margin-left: 2.2vw;
+    padding: 0.7vh 0.3vw 0.7vh 0.3vw;
+}
+.brand img{
+    height: 3.3vh;
+    width: 9.8vw;
+}
+
+/* logo */
+
+.logo{
+    margin-top: 1.3vh;
+}
+.logo img {
+    height: 10.6vh;
+    width: 5.1vw;
+}
+
+/* signup Button */
+.btn{
+    border: 3px solid black !important;
+    width: 12vw;
+    height: 6vh;
+    margin-right: 2.2vw;
+    font-size: 20px;
+    color: black;
+    background: transparent;
+    border-radius: 31.35px !important;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: Rubik;
+    line-height: 3.6vh;
+    text-align: center;
+
+}
