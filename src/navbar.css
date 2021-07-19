@@ -27,7 +27,7 @@
 
 /* signup Button */
 .btn{
-    border: 3px solid black !important;
+    border: 3px solid black;
     width: 12vw;
     height: 6vh;
     margin-right: 2.2vw;
@@ -41,4 +41,24 @@
     line-height: 3.6vh;
     text-align: center;
 
+}
+
+@media(max-width: 400px){
+    .logo{
+        margin-top: 0vh;
+    }
+
+    .logo img{
+        height: 3vh;
+        width: 6vw;
+    }
+
+    .btn{
+        font-size: 12px;
+        width: 15vw;
+        margin-right: 3vw;
+        height: 3vh;
+        line-height: 1vh;
+        border: 2px solid black;
+    }
 }
